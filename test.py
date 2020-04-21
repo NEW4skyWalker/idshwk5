@@ -61,7 +61,7 @@ if __name__ == '__main__':
         for domain, label in output:
             line = domain + ","
             if label == 0:
-                line = line + "nodga\n"
+                line = line + "notdga\n"
             else:
                 line = line + "dga\n"
             f.write(line)
